@@ -1,5 +1,4 @@
 import math
-import sys
 
 word = input("Podaj słowo do zaszyfrowania: ")
 while not word.isalpha():
