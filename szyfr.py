@@ -1,5 +1,12 @@
 import math
 
+alphabet_pl = "aąbcćdeęfghijklłmnńoóprsśtuwyzźż"
+alphabet_en = "abcdefghijklmnopqrstuvwxyz"
+
+lang = int(input("W jakim języku będzie słowo? 1 - język polski, 2 - język angielski. "))
+while lang != 1 and lang != 2:
+    lang = int(input("Niepoprawna wartość. Wpisz 1 dla języka polskiego lub 2 dla języka angielskiego. "))
+
 word = input("Podaj słowo do zaszyfrowania: ")
 while not word.isalpha():
     word = input("Niepoprawna wartość. Podaj słowo do zaszyfrowania WYŁĄCZNIE literami: ")
