@@ -3,7 +3,7 @@ import math
 alphabet_pl = "aąbcćdeęfghijklłmnńoóprsśtuwyzźż"
 alphabet_en = "abcdefghijklmnopqrstuvwxyz"
 
-lang = int(input("W jakim języku będzie słowo? 1 - język polski, 2 - język angielski. "))
+lang = int(input("W jakim języku będzie słowo? 1 - polski, 2 - angielski: "))
 while lang != 1 and lang != 2:
     lang = int(input("Niepoprawna wartość. Wpisz 1 dla języka polskiego lub 2 dla języka angielskiego. "))
 
